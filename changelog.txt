@@ -1,0 +1,54 @@
+# Portfolio Website Changelog
+Date: April 30, 2025
+
+## Summary
+Updated the portfolio website to personalize it for Dimitri Schneider, including changing personal information, updating the color scheme to dark green and brown, enhancing the glass morphism effect, and replacing the placeholder image with an actual photo.
+
+## Changes by File
+
+### index.html
+- Changed page title to "Dimitri Schneider | Portfolio"
+- Updated hero section heading to "Hello, I'm Dimitri Schneider"
+- Replaced placeholder image initials "YN" with actual photo (dimitri.jpg)
+- Updated personal information:
+  - Name: Changed from "Your Name" to "Dimitri Schneider"
+  - Email: Changed to "HgsBCzky2ar8Yxs2@protonmail.com"
+  - Location: Changed from "Your City, Country" to "Seattle, WA"
+  - Availability: Changed from "Available for freelance" to "Monday to Friday between 9am to 5pm"
+- Updated contact information:
+  - Email: Changed to "HgsBCzky2ar8Yxs2@protonmail.com"
+  - Phone: Changed from "+1 (123) 456-7890" to "+1 (425) 647-5717"
+  - Location: Changed to "Seattle, WA"
+- Updated copyright notice to "© 2025 Dimitri Schneider. All Rights Reserved."
+- Fixed HTML syntax error (removed unexpected "tri" text at beginning of DOCTYPE declaration)
+
+### style.css
+- Changed color scheme:
+  - Primary color: Changed from #6c63ff (purple) to #2a6d2c (desaturated dark green)
+  - Secondary color: Changed from #4db5ff (light blue) to #8B4513 (brown)
+  - Dark background: Changed from #0a0a1f (very dark blue) to #111a11 (desaturated dark green)
+  - Added miscellaneous color: #000000 (black)
+- Updated gradients to use the new color scheme:
+  - Gradient 1: Changed to linear-gradient(135deg, #2a6d2c 0%, #7a3c10 100%)
+  - Gradient 2: Changed to linear-gradient(135deg, #3a8a3e 0%, #000000 100%)
+  - Gradient 3: Changed to linear-gradient(135deg, #7a3c10 0%, #2a6d2c 100%)
+- Enhanced glass morphism effect:
+  - Increased glass background transparency from 0.1 to 0.15
+  - Increased glass border transparency from 0.2 to 0.25
+  - Increased glass shadow opacity from 0.1 to 0.15
+  - Increased blur effect from 10px to 15px
+  - Added additional shadow with green tint for more depth
+- Reduced background shape opacity from 0.5 to 0.4 to make them less prominent
+- Added styling for profile image:
+  - Set width and height to 100%
+  - Applied object-fit: cover for proper scaling
+  - Set border-radius to 50% to maintain circular shape
+- Updated box shadow colors to match the new color scheme
+
+### script.js
+- No changes made
+
+## Notes
+- The website maintains its original functionality and responsive design
+- The glass morphism effect has been enhanced to be more pronounced with the new color scheme
+- The color scheme has been desaturated to be easier on the eyes
